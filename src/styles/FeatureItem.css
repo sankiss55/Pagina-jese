@@ -1,0 +1,19 @@
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 20px;
+}
+.feature-item p{
+    color: #f3e5a7;
+     font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-style: normal;
+  margin-bottom: 10px;
+
+}

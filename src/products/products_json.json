@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Miel Natural pura",
+            "description":"Miel 100% pura, cosechada de manera sostenible.",
+            "price": 70.00,
+            "image":"products1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Miel blanca",
+            "description":"Miel blanca de flor de mezquite 100% natural 350g.",
+            "price":122.00,
+            "image":"products2.webp"
+        },
+        {
+            "id":3,
+            "name":"Miel de Abeja Multiflora ",
+            "description":"Miel de Abeja Multiflora 100% natural 250 gr",
+            "price":93.00,
+            "image":"products3.webp"
+        }
+    ]
+}
