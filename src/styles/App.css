@@ -9,9 +9,9 @@
     --section-color:#404a31;
 }
 body{
-    
     background-color: rgb(240, 228, 197);
-    
+    position: relative;
+    overflow-x: hidden;
 }
 button{
     cursor: pointer;
@@ -48,7 +48,6 @@ button{
     position: absolute;
     left: -200%;
 }
-
 .btnButton_wastapp {
     transition: all 0.5s ease; 
     z-index: 99;
@@ -152,6 +151,10 @@ main >div{
 
 main >div * {
     flex: 1;
+}
+section:nth-of-type(2){
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 @media screen and (max-width: 768px) {
     section:nth-of-type(1){

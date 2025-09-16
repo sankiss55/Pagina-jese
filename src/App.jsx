@@ -39,8 +39,7 @@ AOS.init();
         </div>
         <Button  text="Conoce mas ahora" />
       </section>
-      <section   data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+      <section   data-aos="fade-up">
         <img src={Ramita3}  alt="ramita" className='ramitas'/>
         <img src={Ramita4} alt="ramita" className='ramitas'/>
        <TargetFooter 
