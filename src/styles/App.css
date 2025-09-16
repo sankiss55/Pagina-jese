@@ -9,9 +9,9 @@
     --section-color:#404a31;
 }
 body{
+    
     background-color: rgb(240, 228, 197);
     
-    overflow-x: hidden;
 }
 button{
     cursor: pointer;
@@ -93,10 +93,9 @@ main, section{
 section:nth-of-type(2){
     margin:20px;
     padding: 40px;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     position: relative;
-    flex-wrap: wrap;
     gap:100px;
 }
 
@@ -180,5 +179,8 @@ main >div * {
     }   
     fieldset{
         width: 100%;
+    }
+    .btn_products{
+        display:none;
     }
 }
